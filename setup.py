@@ -12,7 +12,7 @@ setup(
                       'termcolor', # adept_envs dependency
                       'click',  # adept_envs dependency
                       'dm_control',
-                      'mjrl @ git+git://github.com/aravindr93/mjrl@master#egg=mjrl'],
+                      'mjrl @ git+https://github.com/aravindr93/mjrl.git'],
     packages=find_packages(),
     package_data={'d4rl': ['locomotion/assets/*',
                            'hand_manipulation_suite/assets/*',
